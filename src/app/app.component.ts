@@ -9,4 +9,5 @@ export class AppComponent {
   title = 'app';
   name = 'Eduardo Lopez';
   textosiempre = 'Holi :v';
+  colores = ['rojo', 'azul', 'amrillo'];
 }
