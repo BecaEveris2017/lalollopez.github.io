@@ -16,5 +16,11 @@ export class AppComponent {
     color.value = '';
     return false;
   }
+
+  showCont: boolean;
+  
+  btnView() {
+    this.showCont = !this.showCont;
+    }
 }
 

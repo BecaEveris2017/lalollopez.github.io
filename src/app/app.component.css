@@ -2,3 +2,9 @@
     background-color: #000;
     color: white;
 }
+
+.blue{
+    background-color: rgb(17, 209, 235);
+    color: white;
+    align-content: left;
+}
