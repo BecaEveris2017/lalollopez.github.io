@@ -10,4 +10,11 @@ export class AppComponent {
   name = 'Eduardo Lopez';
   textosiempre = 'Holi :v';
   colores = ['rojo', 'azul', 'amrillo'];
+  addcolor(color) {
+    this.colores.push(color.value);
+    console.log(color.value);
+    color.value = '';
+    return false;
+  }
 }
+
